@@ -1,15 +1,12 @@
-import Test from './Components/Test'; // Import the Test component
-function App() {
-  
+import React from "react";
+import UserList from "./Components/activity3";
 
+function App() {
   return (
-    <>
-     <div>
-       <Test />
-       
-     </div>
-    </>
-  )
+    <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f4f4f9", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <UserList />
+    </div>
+  );
 }
 
-export default App
+export default App;
